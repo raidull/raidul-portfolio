@@ -1,5 +1,5 @@
 import React from 'react'
-import profileImg from "../../assets/Raidul-fsae.jpg"
+import profileImg from "../../assets/Raidul-fsae.JPG"
 import shapeOne from "../../assets/shape-1.png"
 import shapeTwo from "../../assets/shape-2.png"
 
