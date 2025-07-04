@@ -169,7 +169,7 @@ export const projects = [
     category: 'hardware',
     title: 'Coaster',
     description:
-      'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'a simple coaster designed to appreciate the Japanese art style that I really admired using render in Fusion 360',
   },
 ];
 
