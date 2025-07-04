@@ -2,6 +2,7 @@ import React from 'react'
 import profileImg from "../../assets/Raidul-fsae.JPG"
 import shapeOne from "../../assets/shape-1.png"
 import shapeTwo from "../../assets/shape-2.png"
+import cornellLogo from "../../assets/cornell_logo.png"
 
 import { FaLinkedin, FaInstagram, FaLink, FaLinkedinIn } from "react-icons/fa";
 import { FaX, FaXTwitter } from "react-icons/fa6";
@@ -31,7 +32,7 @@ const Home = () => {
 
                     <p className="home__data home__data-one">
                         <span className="text-lg">
-                            <img src="src\assets\Cornell Logo.png" alt="" className='cornell__logo' />
+                            <img src={cornellLogo} alt="" className='cornell__logo' />
                         </span>
 
                         <span className="text-sm text-cs">
