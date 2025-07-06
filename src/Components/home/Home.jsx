@@ -68,7 +68,7 @@ const Home = () => {
                 </div>
 
                 <div className="home__btns">
-                    <a href="" className="btn text-cs" >download resume</a>
+                    <a href="" className="btn text-cs" >resume (july 2025)</a>
                     <a href="" className="hero__link text-cs">my blood sweat and tear T_T</a>
                 </div>
             </div>
