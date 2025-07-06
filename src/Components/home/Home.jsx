@@ -72,6 +72,10 @@ const Home = () => {
                     <a href="" className="hero__link text-cs">my blood sweat and tear T_T</a>
                 </div>
             </div>
+
+            <div className="section__deco deco__left">
+                <img src={shapeOne} alt="" className='shape'/>
+            </div>
             </div>
         </section>
     )

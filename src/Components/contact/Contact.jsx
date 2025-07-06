@@ -38,7 +38,7 @@ const Contact = () => {
             </p>
 
             <div className="contact__container container grid">
-                <div className="contact__contentt">
+                <div className="contact__content">
                     <div className="contact__card">
                         <span className="contact__card-icon">
                             <FaRegMap/>

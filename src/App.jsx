@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import Header from './Components/header/Header';
 import Home from './Components/home/Home';
@@ -12,9 +12,22 @@ import MouseTrail from './Components/MouseTrail/MouseTrail';
 
 function App() {
 
+  const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1200);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsDesktop(window.innerWidth >= 1200);
+    };
+
+    window.addEventListener('resize', handleResize);
+    
+    // cleanup
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   return (
     <main className="main">
-      <MouseTrail />
+      {isDesktop && <MouseTrail />}
       <Header />
       <Home />
       <Skills />

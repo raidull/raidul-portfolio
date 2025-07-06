@@ -3,9 +3,10 @@ import { links } from '../../Data'
 import { FaLinkedin, FaInstagram, FaLink, FaLinkedinIn } from "react-icons/fa";
 import { FaX, FaXTwitter } from "react-icons/fa6";
 import {BsSun, BsMoon } from "react-icons/bs";
-import './header.css'
 import { Link } from 'react-scroll';
 import { animateScroll } from 'react-scroll';
+import shapeOne from "../../assets/shape-1.png"
+import './header.css'
 
 const getStorageTheme = () => {
     let theme ='light-theme';
@@ -87,6 +88,10 @@ const Header = () => {
                             <a href="https://www.instagram.com/raidulri/" className="header__social-link"><FaInstagram/></a>
                             <a href="https://www.linkedin.com/in/raidulislam/" className="header__social-link"><FaX/></a>
                         </div>
+                    </div>
+
+                    <div className="section__deco deco__left header__deco">
+                        <img src={shapeOne} alt="" className='shape'/>
                     </div>
                 </div>
 
