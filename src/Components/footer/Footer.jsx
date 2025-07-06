@@ -8,9 +8,9 @@ const Footer = () => {
         <footer className="footer">
             <div className="footer__container container grid">
                 <div className="footer__socials">
-                    <a href="https://www.linkedin.com/in/raidulislam/" className="footer__social-link"><FaLinkedinIn/></a>
-                    <a href="https://www.instagram.com/raidulri/" className="footer__social-link"><FaInstagram/></a>
-                    <a href="https://www.linkedin.com/in/raidulislam/" className="footer__social-link"><FaX/></a>
+                    <a href="https://www.linkedin.com/in/raidulislam/" className="footer__social-link" target="_blank"><FaLinkedinIn/></a>
+                    <a href="https://www.instagram.com/raidulri/" className="footer__social-link" target="_blank"><FaInstagram/></a>
+                    <a href="https://www.linkedin.com/in/raidulislam/" className="footer__social-link" target="_blank"><FaX/></a>
                 </div>
 
 
